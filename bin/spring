@@ -12,4 +12,9 @@ unless defined?(Spring)
     gem 'spring', match[1]
     require 'spring/binstub'
   end
+
+  if ENV['RAILS_ENV'] == 'test'
+    require 'simplecov'
+    SimpleCov.start
+  end
 end

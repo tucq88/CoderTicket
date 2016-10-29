@@ -47,7 +47,9 @@ gem 'font-kit-rails', '~> 1.2.0'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem 'simplecov'
+  gem 'rspec-rails', '~> 3.5', '>= 3.5.2'
+  gem 'simplecov', '~> 0.12.0', require: false
+  gem 'guard-rspec', require: false
 end
 
 group :development do

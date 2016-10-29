@@ -18,7 +18,7 @@ The person with best test coverage will win a small present from the instructor 
 
 #### Events
 
-* [ ] Users can see a list of upcoming events. Past events should not be shown.
+* [x] Users can see a list of upcoming events. Past events should not be shown.
     * **HINT**: Good candidate for a test. You can write test first --> fail --> fast similar to demo
     * Suggestions:
         * Implement `/upcoming` route test to go to 'events#index'
@@ -39,7 +39,7 @@ The person with best test coverage will win a small present from the instructor 
 
 * [x] User can sign up by providing their email, password, and name.
 * [x] User can login using an email and password.
-* [ ] Users can create events.
+* [x] Users can create events.
 * [ ] Users must click "publish event" before an event becomes viewable to other users.
     * **HINT**: use `published_at:datetime` and `Event.published` scope (class method)
     * Suggestions:

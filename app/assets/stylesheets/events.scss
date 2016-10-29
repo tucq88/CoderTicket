@@ -3,8 +3,9 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .events-header {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  margin-top: -30px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   width: 100%;
   color: white;
   h2 {
@@ -12,7 +13,7 @@
     font-weight: bold;
     text-align: center;
     text-shadow: rgba(0, 0, 0, 0.498039) 2px 3px 6px;
-  } 
+  }
   input {
     margin: auto;
     margin-top: 20px;
